@@ -53,8 +53,8 @@
 // console.log(double(13));
 
 const btn = document.querySelector("button");
-btn.addEventListener("click", function () {
-  this.style.backgroundColor = "red";
+btn.addEventListener("click", (e) => {
+  e.target.style.backgroundColor = "red";
 });
 
 const obj = {
